@@ -1,13 +1,16 @@
 Introduction
+
 Sudoku is a puzzle of 9x9 numbers. There are 9 columns and 9 rows in a Sudoku. The Sudoku is further divided in to 9 equal boxes. To solve a Sudoku, each column, row and box should have a permutation of numbers from 1 to 9. There are different algorithms to solve a Sudoku such as: Backtrack solver, Rule based solver, and Boltzman machine.
 
 Definitions
+
 Cell: Cell is the smallest square in the Sudoku puzzle. There are
 81 cells in the puzzle. 
 Box: A box is a square consisting of 9 cells (3x3). There are 9 boxes in the puzzle. 
 Poss: Possibility of numbers in a cell which will not conflict with row, column or the box which the cell is in.
 
 Algorithm
+
 •	Insert the Sudoku. In place of empty cell insert a zero.
 •	Call Read function: Read the Sudoku
 •	Call Validate function: Validates the input Sudoku(su_in)
@@ -31,6 +34,7 @@ f. Call Check function: If it returned 1, break.
 •	Check the output. If solved>Display function: output. Else display> not solved.
 
 Run The Code
+
 •	Firstly, install codeblocks IDE using the link :  www.codeblocks.org
 •	Setup the codeblocks IDE using the video : https://youtu.be/GWJqsmitR21
 •	Paste the code from the Sudoku.cpp file and run the code on codeblocks IDE.
